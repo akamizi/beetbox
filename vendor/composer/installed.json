@@ -1,0 +1,47 @@
+[
+    {
+        "name": "beet/box",
+        "version": "0.8.4",
+        "version_normalized": "0.8.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/beetboxvm/beetbox.git",
+            "reference": "d64a63c8445cb95e66f64024c834dab8e79a9937"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/beetboxvm/beetbox/zipball/d64a63c8445cb95e66f64024c834dab8e79a9937",
+            "reference": "d64a63c8445cb95e66f64024c834dab8e79a9937",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "require-dev": {
+            "composer/composer": "^1.5.2",
+            "consolidation/robo": "^1",
+            "phpunit/phpunit": "6.4.4",
+            "sensiolabs/security-checker": "^4.0"
+        },
+        "time": "2017-11-21T09:44:48+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Beet\\Box\\Plugin",
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Beet\\Box\\": "composer/src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "A pre-provisioned L*MP stack VM",
+        "homepage": "https://github.com/beetboxvm/beetbox"
+    }
+]

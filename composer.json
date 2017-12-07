@@ -1,0 +1,5 @@
+{
+    "require-dev": {
+        "beet/box": "^0.8.4"
+    }
+}
